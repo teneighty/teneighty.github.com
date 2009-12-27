@@ -1,29 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <meta name="Content-Type" content="text/html; charset=UTF-8" />
-    <title>github :: teneighty</title>
-    <style type="text/css" media="screen">
-      * { margin: 0; padding: 0; }
-      #container { 
-          width: 100%; text-align: center; margin: 100px 0; 
-      }
-      #menu { margin: 10px; }
-      #menu ul { list-style-type: none; }
-      #menu li { display: inline;       }
-      #menu a { color: #000; }
-    </style>
-  </head>
-  <body>
-    <div id="container">
-        <div>
-            <h2>teneighty</h2>
-        </div>
-        <div>
-            <ul id="menu">
-                <li><a href="http://github.com/teneighty/Papps">papps</a></li>
-            </ul>
-        </div>
-    </div>
-  </body>
-</html>
+---
+layout: default
+title: Tim Horton
+---
+
+<div id="home">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Projects</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/teneighty/papps/">Papps:</a> Haskell paste bin.</li>
+  </ul>
+</div>
+  
