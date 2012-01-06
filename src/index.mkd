@@ -1,0 +1,17 @@
+---
+    title: Tim Horton
+    inherits: _templates/base.html
+---
+
+# Projects
+
+<ul class="posts">
+    <li><a href="http://teneighty.github.com/lacy">Lacy</a></li>
+    <li><a href="http://teneighty.github.com/lacy">Moss</a></li>
+</ul>
+
+#Social
+
+<ul class="posts">
+    <li><a href="http://www.github.com/teneighty/">Github/teneighty</a></li>
+</ul>
