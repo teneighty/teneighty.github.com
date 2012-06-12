@@ -1,0 +1,66 @@
+
+body {
+    color: #52585D;
+    font: 1.2em helvetica,arial,freesans,clean,sans-serif;
+    margin-top: 80px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#container hr {
+    width: 200px;
+    margin: 10px auto;
+}
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+section a {
+    color: #52585D;
+}
+
+section a:link, section a:visited {
+    color: #52585D;
+}
+
+section a:hover {
+    color: silver;
+    transition: all 0.2s ease-out;
+
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}
+
+section ul {
+    margin: 0 auto;
+    width: 400px;
+    list-style-type: none;
+    text-align: center;
+}
+
+section li {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+
+.light {
+    color: #CCC;
+} 
+
+

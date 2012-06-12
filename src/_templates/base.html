@@ -3,7 +3,28 @@
 <head>
     <title>{{title}}</title>
     <meta name="author" content="Tim Horton" />
-    <link rel="stylesheet" href="./styles/default.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="./styles/reset.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="./styles/main.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Tim Horton</h1>
+        </header>
+
+        <hr />
+
+        <section>
+            {{content}}
+        </section>
+
+        <hr />
+        
+        <footer>
+            tmhorton<span class="light">at</span>gmail.com
+        </footer>
+    </div>
+
     <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -17,24 +38,5 @@
     })();
 
     </script>
-</head>
-<body>
-    <div class="site">
-        <div class="title">
-            <a href="/">Tim Horton</a>
-        </div>
-
-        {{content}}
-    
-        <div class="footer">
-            <div class="contact">
-            <p>
-                Tim Horton<br />
-                tmhorton@gmail.com
-            </p>
-            </div>
-        </div>
-    </div>
-
 </body>
 </html>

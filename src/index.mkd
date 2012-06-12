@@ -3,15 +3,5 @@
     inherits: _templates/base.html
 ---
 
-# Projects
-
-<ul class="posts">
-    <li><a href="http://teneighty.github.com/lacy">Lacy</a></li>
-    <li><a href="http://teneighty.github.com/moss">Moss</a></li>
-</ul>
-
-#Social
-
-<ul class="posts">
-    <li><a href="http://www.github.com/teneighty/">Github/teneighty</a></li>
-</ul>
+* [github/](http://www.github.com/teneighty/)
+* [facebook/](http://www.facebook.com/tim.horton.1080/)
